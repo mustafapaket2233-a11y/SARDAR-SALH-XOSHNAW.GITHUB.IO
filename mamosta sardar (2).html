@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAMOSTA SARDAR SALH XOSHNAW</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: white;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 800px;
+            width: 100%;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+        }
+        
+        .header {
+            text-align: center;
+            padding: 30px 20px;
+            background: rgba(0, 0, 0, 0.2);
+        }
+        
+        .profile-img-container {
+            width: 180px;
+            height: 180px;
+            margin: 0 auto 20px;
+            border-radius: 50%;
+            border: 5px solid rgba(255, 255, 255, 0.3);
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .profile-img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        
+        .name {
+            font-size: 28px;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+        
+        .title {
+            font-size: 18px;
+            margin-bottom: 20px;
+            opacity: 0.9;
+        }
+        
+        .bio {
+            padding: 20px;
+            text-align: center;
+            font-size: 18px;
+            line-height: 1.6;
+            background: rgba(0, 0, 0, 0.15);
+        }
+        
+        .links {
+            padding: 20px;
+        }
+        
+        .link-item {
+            display: flex;
+            align-items: center;
+            background: rgba(255, 255, 255, 0.1);
+            margin-bottom: 15px;
+            border-radius: 12px;
+            padding: 15px;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            color: white;
+        }
+        
+        .link-item:hover {
+            background: rgba(255, 255, 255, 0.2);
+            transform: translateY(-3px);
+        }
+        
+        .link-icon {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.2);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 15px;
+            font-size: 20px;
+        }
+        
+        .link-text {
+            flex: 1;
+        }
+        
+        .link-title {
+            font-weight: bold;
+            display: block;
+        }
+        
+        .link-url {
+            font-size: 14px;
+            opacity: 0.8;
+            display: block;
+            margin-top: 3px;
+        }
+        
+        .footer {
+            text-align: center;
+            padding: 20px;
+            font-size: 14px;
+            opacity: 0.7;
+            background: rgba(0, 0, 0, 0.2);
+        }
+        
+        @media (max-width: 600px) {
+            .profile-img-container {
+                width: 150px;
+                height: 150px;
+            }
+            
+            .name {
+                font-size: 24px;
+            }
+            
+            .title {
+                font-size: 16px;
+            }
+            
+            .bio {
+                font-size: 16px;
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="profile-img-container">
+                <!-- ImgBB'den aldığınız Direct Link'i buraya yapıştırın -->
+                <img src="https://i.ibb.co/qYysmDZQ/photo-2025-08-20-14-05-00.jpg" class="profile-img" alt="Sardar Salh Xoshnaw">
+            </div>
+            <h1 class="name">MAMOSTA SARDAR SALH XOSHNAW</h1>
+            <div class="title"> مامۆستایی کیمیا لە:ئامادەیی کوردستانی کوران له گه ل کۆمه لگایی بارزی  نا حکومی. </div>
+        </div>
+        
+        <div class="bio">
+            مامۆستا سەردار صالح رەشید ناسراو بە سەردار خۆشناو دەرچووی كۆلێژی زانست بە شی كیمیا بەپلەی پێنچەم لە دە یەكەمەكانی بەكالۆریس لە كیمیا
+        </div>
+        
+        <div class="links">
+            <a href="https://www.tiktok.com/@sardarsalih3" class="link-item" target="_blank">
+                <div class="link-icon">
+                    <i class="fab fa-tiktok"></i>
+                </div>
+                <div class="link-text">
+                    <span class="link-title">TikTok</span>
+                    <span class="link-url">tiktok.com/@sardarsalih3</span>
+                </div>
+            </a>
+            
+            <a href="https://www.instagram.com/sardar_salh" class="link-item" target="_blank">
+                <div class="link-icon">
+                    <i class="fab fa-instagram"></i>
+                </div>
+                <div class="link-text">
+                    <span class="link-title">Instagram</span>
+                    <span class="link-url">instagram.com/sardar_salh</span>
+                </div>
+            </a>
+            
+            <a href="https://wa.me/+9647504948347" class="link-item" target="_blank">
+                <div class="link-icon">
+                    <i class="fab fa-whatsapp"></i>
+                </div>
+                <div class="link-text">
+                    <span class="link-title">WhatsApp</span>
+                    <span class="link-url">+9647504948347</span>
+                </div>
+            </a>
+            
+            <a href="https://www.youtube.com/@sardar_salh" class="link-item" target="_blank">
+                <div class="link-icon">
+                    <i class="fab fa-youtube"></i>
+                </div>
+                <div class="link-text">
+                    <span class="link-title">YouTube</span>
+                    <span class="link-url">youtube.com/@sardar_salh</span>
+                </div>
+            </a>
+            
+            <a href="https://www.facebook.com/sardar.xoshnaw.98" class="link-item" target="_blank">
+                <div class="link-icon">
+                    <i class="fab fa-facebook"></i>
+                </div>
+                <div class="link-text">
+                    <span class="link-title">Facebook</span>
+                    <span class="link-url">facebook.com/sardar.xoshnaw.98</span>
+                </div>
+            </a>
+            
+            <a href="https://t.me/MAMOSTASARDARSALH" class="link-item" target="_blank">
+                <div class="link-icon">
+                    <i class="fab fa-telegram"></i>
+                </div>
+                <div class="link-text">
+                    <span class="link-title">Telegram</span>
+                    <span class="link-url">t.me/MAMOSTASARDARSALH</span>
+                </div>
+            </a>
+        </div>
+        
+        <div class="footer">
+            © 2025 Sardar Salh Xoshnaw - به خێربێن بۆلینکی مامۆستا سەردار
+        </div>
+    </div>
+</body>
+</html>
